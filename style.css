@@ -28,6 +28,9 @@ body {
     justify-content: space-between;
     padding: 15px 20px;
 }
+.clock-digit {
+    margin-right: 10px;
+}
 
 .clock-digit span {
     font-size: 80px;
