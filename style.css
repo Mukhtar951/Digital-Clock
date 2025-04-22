@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #222;
+    width: 400px;
+    padding: 20px 25px;
+    border-radius: 15px;
+    color: #61dafb;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.clock-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+.clock-digit span {
+    font-size: 80px;
+}
+
+.ampm {
+    align-self: flex-end;
+    opacity: 0.6;
+    font-size: 30px;
+}
+
+.clock-digit h5 {
+    font-size: 14px;
+    opacity: 0.5;
+}
